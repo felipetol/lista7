@@ -24,7 +24,7 @@ public class Ex1 {
 		}
 		
 		for (int i = 0; i < vetorC.length; i++) {
-			vetorC[i] = vetorA[i] - vetorB[i] * vetorB[i];
+			vetorC[i] = vetorA[i] - vetorB[i] * vetorA[i];
 		}
 		
 		System.out.println("Vetor C:");
